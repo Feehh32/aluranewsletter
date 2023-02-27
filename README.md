@@ -5,12 +5,15 @@
 <p align="center"> <img src="https://user-images.githubusercontent.com/76708357/162738365-c3bbc527-11ca-4626-9073-91a225f13534.png" alt="Alura Newsletter"> </p>
 <p align="center">Um site que simula a tela de inscrição da newsletter da Alura, um serviço que tem o objetivo de fornecer informações e novidades sobre o universo tech.</p>
 
-## Tecnologias
-* HTML
-* Tailwind CSS
+>## Status
+>Pronto
 
-## Desktop
-![image](https://user-images.githubusercontent.com/76708357/162736350-2c71a443-f157-42ec-8e3f-bd62d2889b39.png)
+> ## Tecnologias
+> * HTML
+> * Tailwind CSS
 
-## Mobile
-![image](https://user-images.githubusercontent.com/76708357/162736513-dc021074-a2e5-4a19-8715-23b8706a5638.png)
+> ## Desktop
+> ![image](https://user-images.githubusercontent.com/76708357/162736350-2c71a443-f157-42ec-8e3f-bd62d2889b39.png)
+
+>## Mobile
+> ![image](https://user-images.githubusercontent.com/76708357/162736513-dc021074-a2e5-4a19-8715-23b8706a5638.png)
