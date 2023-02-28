@@ -8,15 +8,28 @@
     <title>Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
+      tailwind.config = {
             theme: {
                 extend: {
                     colors: {
                         primary: '#f2dae7'
                     },
                     fontFamily: {
-                        titulo: ['Vast Shadow', 'cursive']
-                    }
+                        titulo: ['Vast Shadow', 'cursive']                    
+                    },
+                    keyframes: {
+                        sino_kf: {
+                            '0%, 100%': {
+                                transform: 'rotate(-10deg)'
+                            },
+                            '50%': {
+                                transform: 'rotate(10deg)'
+                            },
+                        }
+                    },
+                    animation: {
+                        sino: 'sino_kf 0.31s ease-in-out infinite'
+                    },
                 }
             }
         }
@@ -34,10 +47,10 @@
             <div class="p-10 flex flex-col bg-gradient-to-r from-teal-300 to-sky-400 justify-center h-44 gap-6 rounded-r-xl">
                 <p class="font-bold text-6xl text-primary font-titulo">Fernando</p>
                 <p class="text-4xl">Desenvolvedor Front-End</p>
-                <ul class="flex gap-3 mb-4">
-                    <li class="hover:text-primary hover:font-bold"><a href="#">Linkedin</a></li>
-                    <li class="hover:text-primary hover:font-bold"><a href="#">Email</a></li>
-                    <li class="hover:text-primary hover:font-bold"><a href="#">Github</a></li>
+                <ul class="flex gap-3 mb-4 group">
+                    <li class="hover:text-primary hover:font-bold group-hover:animate-sino"><a href="#">Linkedin</a></li>
+                    <li class="hover:text-primary hover:font-bold group-hover:animate-sino"><a href="#">Email</a></li>
+                    <li class="hover:text-primary hover:font-bold group-hover:animate-sino"><a href="#">Github</a></li>
                   </ul>
             </div>
     </div>
